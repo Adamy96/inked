@@ -1,0 +1,27 @@
+.navbar__mobile {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+    position: fixed;
+    width: 100%;
+    background-color: var(--color-white);
+
+    .logo {
+        svg {
+            width: 95px;
+        }
+    }
+
+    button {
+        width: 100px;
+        height: 32px;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--color-white);
+        background-color: var(--color-primary);
+        border: 0;
+        border-radius: 4px;
+    }
+}

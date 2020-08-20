@@ -1,0 +1,20 @@
+.header {
+    padding: 87px 10px 0 10px;
+
+    .title {
+        font-size: 42px;
+        font-weight: 900;
+        margin-bottom: 14px;
+    }
+
+    .description {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    [class^='store_links'] {
+        margin-top: 23px;
+    }
+}
