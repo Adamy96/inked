@@ -1,1 +1,0 @@
-web: yarn react-scripts start
