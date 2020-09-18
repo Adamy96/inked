@@ -1,0 +1,76 @@
+.lp_container {
+    position: relative;
+    overflow: hidden;
+
+    .squares {
+        top: 460px;
+        z-index: -1;
+        position: absolute;
+        right: 0;
+    }
+
+    .square {
+        top: 975px;
+        z-index: -1;
+        position: absolute;
+        left: -10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .lp_container {
+        .squares {
+            top: 0px;
+            z-index: -1;
+            position: absolute;
+            right: -150px;
+            
+            svg {
+                width: 65vw;
+                height: 50vw;
+                max-width: 520px;
+                max-height: 520px;
+            }
+        }
+
+        .square {
+            top: 320px;
+            z-index: -1;
+            position: absolute;
+            left: -10px;
+
+            svg {
+                width: 90px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lp_container {
+        .squares {
+            top: 0px;
+            z-index: -1;
+            position: absolute;
+            right: -150px;
+            
+            svg {
+                width: 80vw;
+                height: 80vw;
+                max-width: 600px;
+                max-height: 600px;
+            }
+        }
+
+        .square {
+            top: 425px;
+            z-index: -1;
+            position: absolute;
+            left: -25px;
+
+            svg {
+                width: 120px;
+            }
+        }
+    }
+}

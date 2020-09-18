@@ -12,7 +12,7 @@ export default function Navbar() {
                 <Logo />
             </div>
             <button>
-                {t('Saber mais')}
+                {t('Navbar.saibaMais')}
             </button>
         </nav>
     )

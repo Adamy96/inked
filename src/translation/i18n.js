@@ -1,29 +1,33 @@
 import i18n from "i18next";
-import pt_BR from "./pt_BR";
 import { initReactI18next } from "react-i18next";
 
-export default ({
-	res = {},
-	lng = "pt_BR",
-	fallbackLng = "pt_BR",
-	keySeparator = false,
-	nsSeparator = false,
-	escapeValue = false,
-	...rest
-} = {}) => {
-	const resources = Object.assign({ pt_BR }, res);
+import Backend from "i18next-http-backend";
+import LanguageDetector from "i18next-browser-languagedetector";
+// don't want to use this?
+// have a look at the Quick start guide
+// for passing in lng and translations on init
 
-	i18n.use(initReactI18next).init({
-		resources,
-		lng,
-		fallbackLng,
-		keySeparator,
-		nsSeparator,
+const Languages = ['en', 'pt'];
+
+i18n
+	// load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
+	// learn more: https://github.com/i18next/i18next-http-backend
+	.use(Backend)
+	// detect user language
+	// learn more: https://github.com/i18next/i18next-browser-languageDetector
+	.use(LanguageDetector)
+	// pass the i18n instance to react-i18next.
+	.use(initReactI18next)
+	// init i18next
+	// for all options read: https://www.i18next.com/overview/configuration-options
+	.init({
+		fallbackLng: "pt",
+		debug: true,
+		whitelist: Languages,
+
 		interpolation: {
-			escapeValue,
+			escapeValue: false, // not needed for react as it escapes by default
 		},
-		...rest,
 	});
 
-	return i18n;
-};
+export default i18n;

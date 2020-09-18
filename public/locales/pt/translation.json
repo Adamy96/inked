@@ -1,0 +1,60 @@
+{
+	"Navbar": {
+		"funcionalidades": "Funcionalidades",
+		"comunidade": "Comunidade",
+		"saibaMais": "Saiba mais"
+	},
+	"Header": {
+		"title": "Finalmente, o app do tatuador",
+		"title1": "Finalmente,",
+		"title2": "o app do tatuador",
+		"description": "Com o Inked você tem o controle. Faça seus orçamentos com mais facilidade, agilidade e ainda permita que seus clientes encontrem uma data, dentro da sua agenda."
+	},
+	"EmailInput": {
+		"label": "Email",
+		"placeholder": "seunome@email.com",
+		"button": "Saber mais"
+	},
+	"StoreLinks": {
+		"text": "EM BREVE"
+	},
+	"Features": {
+		"subtitle": "Funcionalidades",
+		"titleDesktop1": "Você faz a tatuagem.",
+		"titleDesktop2": "Todo resto é com a gente",
+		"titleMobile": "Você faz a tatuagem. O resto é com a gente",
+		"description1": "Conte com toda nossa tecnologia para você se preocupar apenas com a tatuagem.",
+		"description2": "Toda a burocracia de agendamento, orçamento e pagamento, é com a gente."
+	},
+	"FeatureCardsData": {
+		"card1_title": "Autônomo ou estúdio",
+		"card2_title": "Calendário personalizado",
+		"card3_title": "Chat apenas para clientes",
+		"card1_text": "Independente da forma que você trabalha o Inked se adapta para você",
+		"card2_text": "Selecione as datas e os horários que você está disponível, e seus clientes escolhem a data.",
+		"card3_text": "No chat do Inked, apenas clientes que tenham enviado o orçamento podem enviar mensagens."
+	},
+	"OurTools": {
+		"title1": "Uma ferramenta que ",
+		"title2": "se conecta a você",
+		"description1": "A facilidade do mundo digital finalmente chega para os tatuadores. Agora só vai receber orçamento por e-mail ou redes sociais quem realmente quiser.",
+		"description2": "Veja as facilidades:"
+	},
+	"OurToolsData": {
+		"text1": "Todos orçamentos em um só lugar",
+		"text2": "Comodidade com pagamentos online",
+		"text3": "Receba apenas orçamentos completos"
+	},
+	"Community": {
+		"subtitle": "Comunidade",
+		"title1": "Venha você também ",
+		"title2": "fazer parte da revolução",
+		"description": "Nosso objetivo é com que você passe mais tempo tatuando do que lidando com a parte burocrática de lidar com clientes e organizando sua agenda conforme a necessidade deles. O Inked te coloca no centro."
+	},
+	"LearnMore": {
+		"subtitle": "Saiba mais",
+		"titleDesktop": "Bem-vindo a revolução do mundo da tatuagem",
+		"titleMobile": "A revolução do mundo da tatuagem",
+		"description": "Descubra você também o que o Inked pode fazer por você. Registre-se e fique por dentro das nossas novidades"
+	}
+}

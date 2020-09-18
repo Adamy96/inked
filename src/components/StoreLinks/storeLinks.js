@@ -7,12 +7,19 @@ export default function StoreLinks() {
 
     return (
         <div className='store_links'>
-            <p>
-                {t('EM BREVE')}
-            </p>
-            <div className='container'>
-                <a to='#' className='google-play'></a>
-                <a to='#' className='app-store'></a>
+            <div className='left-side'>
+                <p>
+                    {t('StoreLinks.text')}
+                </p>
+                <div className='container'>
+                    <a href='#' className='google-play'></a>
+                    <a href='#' className='app-store'></a>
+                </div>
+            </div>
+            <div className='right-side'>
+                <p>
+                    INSTAGRAM
+                </p>
             </div>
         </div>
     )

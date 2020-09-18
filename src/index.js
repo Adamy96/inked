@@ -1,15 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import configureI18n from './translation/i18n';
-import pt_BR from './translation/i18n';
 import './design-tokens/main.scss';
 import App from './App';
 
-configureI18n({ res: { pt_BR } });
+import './translation/i18n';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Suspense fallback={(<div> Loading </div>)}>
     <App />
-  </React.StrictMode>,
+  </Suspense>,
   document.getElementById('root')
 );

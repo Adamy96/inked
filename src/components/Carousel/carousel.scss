@@ -1,0 +1,51 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+
+    &-container {
+        padding: 0 16px;
+    }
+
+    & .slick-track {
+        display: flex;
+    }
+
+    & .slick-slide {
+        display: flex;
+        justify-content: center;
+        margin: 0 8px;
+        overflow: hidden;
+        transition: all .3s;
+        height: 264px;
+        
+        & > div {
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel {
+        & .slick-slide {
+            height: 240px;
+        }
+
+        & img {
+            height: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .carousel {
+        & .slick-slide {
+            height: 330px;
+        }
+
+        & img {
+            height: 100%;
+        }
+    }
+}

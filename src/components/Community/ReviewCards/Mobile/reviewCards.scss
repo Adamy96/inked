@@ -1,0 +1,11 @@
+.reviewCards_mobile {
+    width: 276px;
+
+    & > .slick-initialized {
+        overflow: visible;
+    }
+
+    & > div > div > div > .slick-slide {
+        height: auto;
+    }
+}

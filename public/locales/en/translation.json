@@ -1,0 +1,60 @@
+{
+	"Navbar": {
+		"funcionalidades": "Features",
+		"comunidade": "Community",
+		"saibaMais": "Join us"
+	},
+	"Header": {
+        "title": "At last, the tattoo artist app",
+        "title1": "At last, the",
+        "title2": "tattoo artist app",
+		"description": "With Inked you have the control. Do your budgets easily, fastly and allow your clients to find a date the best suits them based on your agenda."
+    },
+    "EmailInput": {
+		"label": "Email",
+		"placeholder": "yourname@email.com",
+		"button": "Learn more"
+    },
+    "StoreLinks": {
+		"text": "COMING SOON"
+    },
+    "Features": {
+		"subtitle": "Features",
+        "titleDesktop1": "Do the tattoo, leave",
+		"titleDesktop2": "all the rest with us",
+		"titleMobile": "Do the tattoo, leave all the rest with us",
+		"description1": "Count on all our technology, so that you only concerned with tattooing than with the",
+		"description2": "bureaucracy of scheduling, budgeting and payments."
+    },
+    "FeatureCardsData": {
+		"card1_title": "Independent or studio?",
+		"card2_title": "Customizable calendar",
+		"card3_title": "Count with our AI",
+		"card1_text": "Regardless of the way you work, Inked adapts to you",
+		"card2_text": "Select the dates and times you are available, and let your customers choose the day that best suits them",
+		"card3_text": "Our App learn how you do your budgets to help you on that step."
+    },
+    "OurTools": {
+		"title1": "A tool that ",
+		"title2": "connects to you",
+        "description1": "The facility of the digital world has finally arrived for tattoo artists. Now only those who really want, will receive a budget by email, WhatsApp or social networks.",
+        "description2": "See the facilities:"
+	},
+    "OurToolsData": {
+		"text1": "All budgets in one place",
+		"text2": "Convenience with online payments",
+		"text3": "Receive only full  budgets"
+    },
+    "Community": {
+		"subtitle": "Community",
+        "title1": "Be part of the ",
+		"title2": "revolution you too",
+		"description": "Our goal is for you to spend more time tattooing than with the bureaucratic part of dealing with clients and organizing your schedule according to their needs. With Inked you are at the center"
+    },
+    "LearnMore": {
+		"subtitle": "Join us",
+		"titleDesktop": "Welcome to the tattoo world revolution",
+		"titleMobile": "Welcome to the tattoo world revolution",
+		"description": "Find out what Inked can do for you. Centralize budgets, calendars and messages and payments in one place. Sign up for more details"
+	}
+}

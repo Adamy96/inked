@@ -1,0 +1,25 @@
+.reviewCards_tablet {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .slider1 {
+        width: 100%;
+    }
+
+    & .slick-slide {
+        margin: 20px 0;
+    }
+
+    & .reviewCard {
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .reviewCards_tablet {
+        .slider1, .slider2 {
+            width: calc(50% - 10px);
+        }
+    }
+}

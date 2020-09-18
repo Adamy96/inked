@@ -3,9 +3,9 @@ import NavbarMobile from './Mobile';
 import NavbarDesktop from './Desktop';
 import useWindowSize from '../WindowCheck';
 
-export default function Navbar() {
+export default function Navbar(props) {
     const isMobile = useWindowSize().width < 768;
-    const Navbar = isMobile ? <NavbarMobile /> : <NavbarDesktop />;
+    const Navbar = isMobile ? <NavbarMobile {...props} /> : <NavbarDesktop {...props} />;
 
     return Navbar;
 };

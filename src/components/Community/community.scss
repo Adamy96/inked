@@ -1,0 +1,103 @@
+.community {
+    height: 750px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 70px 16px;
+    
+    .subtitle {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 31px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        line-height: 38px;
+
+        span:first-of-type {
+            display: block;
+        }
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 72px;
+        color: var(--color-white-80);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .community {
+        padding: 0 40px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height: 600px;
+        justify-content: center;
+
+        .content {
+            width: 50%;
+            max-width: 344px;
+            margin-right: 40px;
+        }
+
+        .cards-container {
+            height: 100%;
+            max-width: 300px;
+        }
+
+        .description {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .community {
+        padding: 0 100px;
+
+        .content {
+            margin-right: 70px;
+        }
+
+        .cards-container {
+            width: calc(50%);
+            height: 100%;
+            max-width: 540px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .community {
+        padding: 0;
+        
+        .subtitle {
+            font-size: 18px;
+        }
+
+        .title {
+            font-size: 46px;
+            line-height: 50px;
+        }
+
+        .content {
+            margin: 0;
+            max-width: 525px;
+            margin-right: 35px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 28px;
+            max-width: 480px;
+        }
+
+        .cards-container {
+
+        }
+    }
+}
